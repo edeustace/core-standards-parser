@@ -8,7 +8,7 @@ This script downloads this xml and for each standards updates our Standard model
 
 # Run
 
-    java -jar ccss-importer-uber.jar db_uri collection math_xml ela_xml
+    java -jar core-standards-parser-uber.jar cores_standards_xml_url_1,...
 
 
 
