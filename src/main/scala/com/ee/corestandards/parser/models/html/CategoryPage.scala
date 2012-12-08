@@ -1,4 +1,5 @@
-package com.ee.models.corestandards
+package com.ee.corestandards.parser.models.html
+
 import scala.xml.{ Node, Elem }
 import scala.util.matching._
 

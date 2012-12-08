@@ -1,4 +1,4 @@
-package com.ee
+package com.ee.corestandards.parser
 
 import models.Standard
 import xml.{Node, Elem, XML}

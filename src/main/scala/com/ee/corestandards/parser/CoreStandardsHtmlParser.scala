@@ -1,7 +1,7 @@
-package com.ee
+package com.ee.corestandards.parser
 
 import xml._
-import com.corespring.models.corestandards._
+import com.ee.corestandards.parser.models.html._
 import scala.collection.mutable.Map 
 
 object CategoryPages {

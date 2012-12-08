@@ -1,11 +1,11 @@
 import AssemblyKeys._ 
 
-scalaVersion := "2.9.1"
+scalaVersion := "2.9.2"
 
 libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "1.12.2" % "test",
   "nu.validator.htmlparser" % "htmlparser" % "1.4",
-  "com.codahale" %% "jerkson" % "0.5.0"
+  "com.codahale" % "jerkson_2.9.1" % "0.5.0"
   )
 
 resolvers ++= Seq(

@@ -1,8 +1,8 @@
-package com.corespring.models.corestandards
+package com.ee.corestandards.parser.models.html
 
 import org.specs2.mutable.Specification
-import com.corespring._
-import com.corespring.models._
+import com.ee.corestandards.parser._
+import com.ee.corestandards.parser.models._
 import java.io.FileInputStream
 import scala.util.matching._
 

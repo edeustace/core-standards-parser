@@ -1,4 +1,4 @@
-package com.ee
+package com.ee.corestandards.parser
 
 import org.xml.sax.InputSource
 

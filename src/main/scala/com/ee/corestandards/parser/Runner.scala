@@ -1,4 +1,4 @@
-package com.ee
+package com.ee.corestandards.parser
 
 object Runner extends App {
 

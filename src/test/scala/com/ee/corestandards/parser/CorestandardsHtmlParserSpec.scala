@@ -1,4 +1,4 @@
-package com.corespring
+package com.ee.corestandards.parser
 
 import org.specs2.mutable.Specification
 
@@ -47,7 +47,6 @@ class CorestandardsHtmlParserSpec extends Specification{
       assertParse("/Math/Content/HSG/SRT/D/10",
         "Similarity, Right Triangles, & Trigonometry",
         "Apply trigonometry to general triangles")
-      true === true
     }
      
     "parse http://www.corestandards.org/Math/Content/K/CC/B/4/a" in {
@@ -55,9 +54,6 @@ class CorestandardsHtmlParserSpec extends Specification{
         "Counting & Cardinality",
         "Count to tell the number of objects.")
     }
-    
-   
- 
 
     "parse A/1" in {
       assertParse("/Math/Content/K/CC/A/1",
@@ -72,19 +68,12 @@ class CorestandardsHtmlParserSpec extends Specification{
       "Perform arithmetic operations on polynomials.")
     }
 
-
-
-
     "/Math/Content/8/SP/A/4" in {
       assertParse("/Math/Content/8/SP/A/4",
         "Statistics & Probability",
         "Investigate patterns of association in bivariate data.")
 
     }
-
    
-     /**/
-    
-    
   }
 }

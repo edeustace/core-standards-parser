@@ -1,11 +1,11 @@
-package com.ee.models
+package com.ee.corestandards.parser.models
 
 import xml.{Node, Elem}
 import util.matching.Regex
-import com.ee.CoreStandardsHtmlParser
+import com.ee.corestandards.parser.CoreStandardsHtmlParser
 
 case class Standard(var dotNotation: String = "",
-                    var guid: String = "",
+                    var refId: String = "",
                     var subject: String = "",
                     var category: String = "",
                     var subCategory: String = "",
@@ -30,7 +30,7 @@ object Standard {
             dotNotation = dn,
             subject = getSubject(n)._1,
             standard = standard,
-            guid = getGuid(n),
+            refId = getRefId(n),
             uri = getUri(n),
             category = category,
             subCategory = subCategory
@@ -69,7 +69,7 @@ object Standard {
       (subject, subSubject)
     }
 
-    def getGuid(n: Node): String = {
+    def getRefId(n: Node): String = {
       val out = (n \ "@RefID").text
       out
     }
